@@ -7,6 +7,7 @@ import NavbarP from './components/navbar.jsx'
 import Image from 'react-bootstrap/Image'
 import { Container } from 'react-bootstrap'
 import Acordions from './components/Acordion'
+import Footer from './components/footer'
 function App() {
 
   return (
@@ -21,6 +22,7 @@ function App() {
        <Container className='main'>
        <Acordions />
        </Container>
+       <Footer />
     </div>
   )
 }

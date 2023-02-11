@@ -35,3 +35,6 @@
 .AcorH button:focus{
     outline: none;
 }
+.acorBody{
+    font-size: 13px;
+}

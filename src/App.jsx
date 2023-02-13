@@ -13,9 +13,9 @@ function App() {
   return (
     <div className="App">
       <Container className='cont-img-portada d-flex ' >
-        <Image src={`../src/assets/img/as.jpg`} alt='Portada'  fluid={true} className="portada"/>
+        <Image src={`./src/assets/img/as.jpg`} alt='Portada'  fluid={true} className="portada"/>
         <div className='container'>
-          <Image src={`../rc/assets/img/me.jpg`}  alt='perfil' fluid={true} className="ImgPerfil"/>
+          <Image src={`./src/assets/img/me.jpg`}  alt='perfil' fluid={true} className="ImgPerfil"/>
         </div>
       </Container>
        <NavbarP></NavbarP>

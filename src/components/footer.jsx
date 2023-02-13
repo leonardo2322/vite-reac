@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="container__footer">
         <div className="box__footer">
             <div className="logo">
-            <Image src={`src/assets/img/logo.png`} alt='Portada'  fluid={true} className="footerLogo"/>
+            <Image src={`../img/logo.png`} alt='Portada'  fluid={true} className="footerLogo"/>
             </div>
             <div className="terms">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores laborum nulla, aliquam unde quam alias beatae laudantium soluta reiciendis numquam </p>

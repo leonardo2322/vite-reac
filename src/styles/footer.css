@@ -4,14 +4,11 @@
     width: 100%;
     font-size: 0.7rem;
     color: #fff;
-    background-color: #BF0F0F;
-    background-image: url('../img/background-footer.svg');
     background-size: cover;
     background-color: #BF0F0F;
-/*     -webkit-mask-image:url('./src/assets/img/background-footer.svg');
-    mask-image: url('./src/assets/img/background-footer.svg');
-    -webkit-mask-size: cover; */
-    mask-size: cover;
+
+    border-top-left-radius: 80px;
+    
 }
 .container__footer{
     display: flex;
@@ -55,6 +52,7 @@
 }
 .box__footer button .Bs{
     font-size: 1.2rem;
+    margin: 5px;
 }
 .Footeer h2{
     font-size: 1.4rem;

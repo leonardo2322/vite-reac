@@ -5,14 +5,13 @@
     font-size: 0.7rem;
     color: #fff;
     background-color: #BF0F0F;
-    *background-image: url('./src/assets/img/background-footer.svg');
-    *background-size: cover;
+    background-image: url('./assets/img/background-footer.svg');
+    background-size: cover;
     background-color: #BF0F0F;
-    -webkit-mask-image:url('./src/assets/img/background-footer.svg');
+/*     -webkit-mask-image:url('./src/assets/img/background-footer.svg');
     mask-image: url('./src/assets/img/background-footer.svg');
-    -webkit-mask-size: cover;
+    -webkit-mask-size: cover; */
     mask-size: cover;
-    padding: 50px 0px;
 }
 .container__footer{
     display: flex;

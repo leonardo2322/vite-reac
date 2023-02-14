@@ -12,6 +12,9 @@
 .container-cards .price{
     display: flex;
     justify-content: center;
+    font-size: 18px;
+ 
+    gap: 5px;
 }
 .container-cards .btnAdd {
   padding: 0.4em 1em;
@@ -117,5 +120,7 @@
   );
 }
 .card_box .card-img {
-  width: 12rem;
+  width: 9rem;
+  height: auto;
+  margin-bottom: 5px;
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 import './App.css'
 
@@ -8,8 +8,21 @@ import Image from 'react-bootstrap/Image'
 import { Container } from 'react-bootstrap'
 import Acordions from './components/Acordion'
 import Footer from './components/footer'
+import HelperHttp from './helpers/requests'
 function App() {
-
+  let api = HelperHttp() 
+  let url = "http://localhost:5000/frutas"
+  const [db,setDb] = useState([])
+  useEffect(()=>{
+    api.get(url).then((res)=>{
+      console.log(res)
+      if(!res.err){
+        setDb(res)
+      }else{
+        setDb([])
+      }
+    })
+  },[])
   return (
     <div className="App">
       <Container className='cont-img-portada d-flex ' >
@@ -20,7 +33,7 @@ function App() {
       </Container>
        <NavbarP></NavbarP>
        <Container className='main'>
-       <Acordions />
+       <Acordions data={db} />
        </Container>
        <Footer />
     </div>

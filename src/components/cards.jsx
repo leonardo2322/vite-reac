@@ -1,21 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/cards.css";
 import Image from "react-bootstrap/Image";
-const Cards = () => {
+const Cards = ({id ,nombre,precio,kg,img, active}) => {
+  const [activo, setActivo]= useState(active)
   return (
-    <div>
-      <div className="container-cards">
+    <div key={id}>
+      <div className="container-cards" >
         <div className="card_box">
           <div className="image">
-            <Image src="../img/Fresas.png" className="card-img"></Image>
+            <Image src={img} className="card-img" fluid={true}></Image>
           </div>
-          <h2 className="title">fresas</h2>
-          <h3 className="price"><strong>$</strong><p>100</p></h3>
+          <h2 className="title">{nombre}</h2>
+          <h3 className="price"><strong>$</strong><p>{precio} </p>Lb {kg}</h3>
           <div className="image">
             <button className="btnAdd">+ Add</button>
           </div>
-
-          <span></span>
+          
+          <span className={activo}></span>
         </div>
       </div>
     </div>

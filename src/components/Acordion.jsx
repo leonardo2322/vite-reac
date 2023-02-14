@@ -2,16 +2,23 @@ import { useState } from "react";
 import Accordion from 'react-bootstrap/Accordion'
 import '../styles/acordion.css'
 import {BsChevronDown }from "react-icons/bs"
+import Image from "react-bootstrap/Image";
 import Cards from "./cards";
 
-const Acordions = () => {
+const Acordions = (props) => {
+  props.data.map((el)=>console.log(el.img))
   return (
     <>
     <Accordion >
       <Accordion.Item eventKey="0" className="AcorItem1">
         <Accordion.Header className="AcorH">Frutas <BsChevronDown /></Accordion.Header>
         <Accordion.Body className="acorBody">
-        <Cards></Cards>
+          {props.data.map((element)=>{
+            return(
+              <Cards id={element.id} nombre={element.nombre}  precio={element.precio}  kg={element.kg} img={element.img} active={element.active}></Cards>
+            )
+            
+          })}
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">

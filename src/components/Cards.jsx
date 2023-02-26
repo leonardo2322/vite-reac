@@ -18,7 +18,9 @@ const Cards = ({ frutas }) => {
                     <button className="btnAdd">+ Add</button>
                 </div>
 
-                <span></span>
+                {
+                  frutas.active ?  <span></span> : false
+                }
             </div>
         </div>
     )

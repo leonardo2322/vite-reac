@@ -8,6 +8,7 @@
 }
 .cont-img-portada{
     padding: 0;
+    overflow: hidden;
 }
 
 .main{

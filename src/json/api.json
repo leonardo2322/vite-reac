@@ -1,5 +1,5 @@
-{
-  "frutas":[
+[
+  
     {
       "id": 25,
       "nombre": "limon tahiti",
@@ -57,4 +57,3 @@
     }
   
   ]
-}

@@ -4,10 +4,10 @@ import "./App.css";
 import NavbarP from "./components/navbar.jsx";
 import Image from "react-bootstrap/Image";
 import { Container } from "react-bootstrap";
-import Acordions from "./components/Acordion";
 import Footer from "./components/footer";
 import { useState } from "react";
 import { ApiProvider } from "./contexts/ContextAPi";
+import Acordion from "./components/Acordion";
 
 function App() {
   return (
@@ -31,7 +31,7 @@ function App() {
         </Container>
         <NavbarP></NavbarP>
         <Container className="main">
-          <Acordions />
+        <Acordion />
         </Container>
         <Footer />
       </ApiProvider>

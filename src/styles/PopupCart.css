@@ -1,0 +1,40 @@
+#PopupCart{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .7);
+    width: 100%;
+    height: 100%;
+    z-index: 250;
+    display: flex;
+    font-size: 17px;
+
+}
+#PopupCart h1{
+    font-size: 22px;
+}
+#HeadPopup{
+    width: 100%;
+    height: 50px;
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.back{
+    background-color: #fff;
+    width: 90%;
+}
+.bodyPopup{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.btn_closePopup{
+    width: 1.5rem;
+    height: 1.5rem;
+    align-items: center;
+    border: none;
+    margin-left: 50px;
+    background: none;
+}

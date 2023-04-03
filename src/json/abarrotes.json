@@ -1,6 +1,6 @@
 [
   {
-    "id": 18,
+    "id": 19,
     "nombre": "Arroz Roa paca 500gx25un",
     "precio": 50500,
     "kg": 1,
@@ -8,7 +8,7 @@
     "active": true
   },
   {
-    "id": 19,
+    "id": 20,
     "nombre": "Arroz Caribe 500gx25un",
     "precio": 49500,
     "kg": 1,
@@ -16,7 +16,7 @@
     "active": false
   },
   {
-    "id": 20,
+    "id": 21,
     "nombre": "Aceite Naoli 20lt",
     "precio": 180000,
     "kg": 1,
@@ -24,7 +24,7 @@
     "active": false
   },
   {
-    "id": 21,
+    "id": 22,
     "nombre": "Aceite vegetal señora Palma 20lts",
     "precio": 181450,
     "kg": 1,
@@ -32,7 +32,7 @@
     "active": true
   },
   {
-    "id": 22,
+    "id": 23,
     "nombre": "Panela redonda el trece 500g",
     "precio": 2700,
     "kg": 1,
@@ -40,7 +40,7 @@
     "active": false
   },
   {
-    "id": 23,
+    "id": 24,
     "nombre": "Panela redonda el trece 1000g",
     "precio": 5100,
     "kg": 1,
@@ -48,7 +48,7 @@
     "active": false
   },
   {
-    "id": 24,
+    "id": 25,
     "nombre": "azucar x bulto 50kg",
     "precio": 220000,
     "kg": 1,

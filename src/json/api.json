@@ -1,7 +1,7 @@
 [
   
     {
-      "id": 25,
+      "id": 26,
       "nombre": "limon tahiti",
       "precio": 4720,
       "kg": 1,
@@ -9,14 +9,14 @@
       "active":false
     },
     {
-      "id": 26,
+      "id": 27,
       "nombre": "Piña Golden",
       "precio": 3630,
       "kg": 1,
       "img": "../img/frutas/PiñaGolden.png",
       "active":true
     }, {
-      "id": 27,
+      "id": 28,
       "nombre": "Naranja valencia ",
       "precio": 2100,
       "kg": 1,
@@ -24,7 +24,7 @@
       "active":false
     },
     {
-      "id": 28,
+      "id": 29,
       "nombre": "Tomate De Arbol",
       "precio": 3770,
       "kg": 1,
@@ -32,7 +32,7 @@
       "active":false
     },
     {
-      "id": 29,
+      "id": 30,
       "nombre": "Limon mandarino",
       "precio": 3640,
       "kg": 1,
@@ -40,7 +40,7 @@
       "active":false
     },
     {
-      "id": 30,
+      "id": 31,
       "nombre": "fresas 500g",
       "precio": 5800,
       "kg": 1,
@@ -48,7 +48,7 @@
       "active":true
     },
     {
-      "id": 31,
+      "id": 32,
       "nombre": "Papaya",
       "precio": 4520,
       "kg": 1,

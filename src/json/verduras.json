@@ -40,7 +40,7 @@
     "active": false
   },
   {
-    "id": 14,
+    "id": 6,
     "nombre": "Zanahoria 2da",
     "precio": 2500,
     "kg": 1,
@@ -48,7 +48,7 @@
     "active": false
   },
   {
-    "id": 6,
+    "id": 7,
     "nombre": "cebolla Cabezona blanca",
     "precio": 4890,
     "kg": 1,
@@ -56,7 +56,7 @@
     "active": false
   },
   {
-    "id": 7,
+    "id": 8,
     "nombre": "Tomate chonto Extra maduro",
     "precio": 3800,
     "kg": 1,
@@ -64,7 +64,7 @@
     "active": true
   },
   {
-    "id": 8,
+    "id": 9,
     "nombre": "cilantro",
     "precio": 1840,
     "kg": 1,
@@ -72,7 +72,7 @@
     "active": false
   },
   {
-    "id": 9,
+    "id": 10,
     "nombre": "Cebolla larga junca",
     "precio": 4000,
     "kg": 1,
@@ -80,7 +80,7 @@
     "active": false
   },
   {
-    "id": 10,
+    "id": 11,
     "nombre": "Pimenton Rojo",
     "precio": 7510,
     "kg": 1,
@@ -88,7 +88,7 @@
     "active": false
   },
   {
-    "id": 11,
+    "id": 12,
     "nombre": "Lechuga Crespa Verde",
     "precio": 1810,
     "kg": 1,
@@ -96,7 +96,7 @@
     "active": false
   },
   {
-    "id": 12,
+    "id": 13,
     "nombre": "lechuga Batavia pequeña",
     "precio": 2700,
     "kg": 1,
@@ -104,7 +104,7 @@
     "active": false
   },
   {
-    "id": 13,
+    "id": 14,
     "nombre": "Tomate chonto pinton",
     "precio": 4720,
     "kg": 1,
@@ -112,7 +112,7 @@
     "active": false
   },
   {
-    "id": 14,
+    "id": 15,
     "nombre": "Platano Verde",
     "precio": 3000,
     "kg": 1,
@@ -120,7 +120,7 @@
     "active": false
   },
   {
-    "id": 15,
+    "id": 16,
     "nombre": "Zanahoria 2da",
     "precio": 2500,
     "kg": 1,
@@ -128,7 +128,7 @@
     "active": true
   },
   {
-    "id": 16,
+    "id": 17,
     "nombre": "Platano Maduro",
     "precio": 3760,
     "kg": 1,
@@ -136,7 +136,7 @@
     "active": false
   },
   {
-    "id": 17,
+    "id": 18,
     "nombre": "Platano Extra maduro",
     "precio": 3400,
     "kg": 1,

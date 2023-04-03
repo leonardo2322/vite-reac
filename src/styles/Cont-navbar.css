@@ -1,3 +1,36 @@
 #Cont-navbar{
     background-color: #D97A07;
+    height: 4rem;
+    position: relative;
+}
+
+.nav-link{
+    font-size: 17px;
+    background-color: #D97A07;
+    border: none;
+}
+.nav-link:focus{
+    outline: none;
+}
+
+#chevron{
+    display: none;
+    border: none;
+    background-color: #D97A07;
+    z-index: 100;
+}
+@media only screen and (max-width:500px){
+    #enlaces{
+        display: none;
+    }
+    .nav-link{
+        position: absolute;
+        right: 0;
+    }
+    #chevron{
+        display: inline;
+        position: absolute;
+        right: 10%;
+        margin-right: 20px;
+    }
 }

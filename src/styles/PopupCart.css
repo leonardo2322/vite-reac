@@ -38,3 +38,39 @@
     margin-left: 50px;
     background: none;
 }
+
+
+.container-products{
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+}
+.container-products img{
+    width: 50px;
+    height: 50px;
+}
+.container-products h4{
+    font-size: 17px;
+}
+
+.container-products input{
+    max-width: 50px;
+    border: none;
+}
+.cont-espe{
+    display: flex;
+    flex-direction: row;
+}
+.container-products input[type=number]{
+    width: 20px;
+    
+}
+.container-products input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button{
+    -webkit-appearance: none;
+
+}
+
+.container-products button{
+    border: none;
+}

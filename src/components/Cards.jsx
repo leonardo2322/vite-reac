@@ -1,24 +1,42 @@
-import React from "react";
+import React, { useContext,   useState,  } from "react";
 import "../styles/cards.css";
+import ApiContext from "../contexts/ContextAPi";
+import verduras from '../json/verduras.json'
+import fruta from '../json/api.json'
+import abarrotes from '../json/abarrotes.json'
 
-const Cards = ({ frutas }) => {
+
+
+const Cards = ({ frutas,Keyid }) => {
+  const { db, LoadinData } = useContext(ApiContext)
+
+
+  const Db = (e)=>{
+    let Product
+    const Id = e.target.parentElement.parentElement.getAttribute("data-id")
+    if (Product = fruta.find(ele => ele.id ==Id) || verduras.find(ele => ele.id ==Id) || abarrotes.find(ele => ele.id ==Id) ){
+      LoadinData(Product)
+    }
+   
+   
+  }
+
+  
+
+  
   const Add = (e) => {
-    let data = {
-      nombre: e.target.parentElement.parentElement.childNodes[1].textContent,
-      img: e.target.parentElement.parentElement.childNodes[0].childNodes[0].src,
-      precio:
-        e.target.parentElement.parentElement.childNodes[2].childNodes[1]
-          .textContent,
-      Gramaje: e.target.parentElement.parentElement.childNodes[2].childNodes[2].data,
-      multiplo:
-        e.target.parentElement.parentElement.childNodes[2].childNodes[3].data,
-    };
-    console.log(data);
+
+    
+    // const newData = [
+    //   ...dataPopup, data
+    // ]
+    // setData(newData)
+    
   };
 
   return (
     <div className="container-cards">
-      <div className="card_box">
+      <div className="card_box " data-id={`${Keyid}`} >
         <div className="image">
           <img src={frutas.img} alt={frutas.nombre} className="card-img" />
         </div>
@@ -28,7 +46,7 @@ const Cards = ({ frutas }) => {
           <p>{frutas.precio}</p>Lb {frutas.kg}
         </h3>
         <div className="image">
-          <button className="btnAdd" onClick={(e) => Add(e)}>
+          <button className="btnAdd" onClick={ (e)=> Db(e) }>
             + Add
           </button>
         </div>

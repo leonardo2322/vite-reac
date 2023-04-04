@@ -25,6 +25,7 @@ const Acordions = () => {
               <Cards   
                key={f.id}
               frutas={f}
+              Keyid={f.id}
               />
             ))
 
@@ -43,6 +44,7 @@ const Acordions = () => {
               <Cards   
                key={f.id}
               frutas={f}
+              Keyid={f.id}
               />
             ))
 
@@ -59,6 +61,7 @@ const Acordions = () => {
               <Cards   
                key={f.id}
               frutas={f}
+              Keyid={f.id}
               />
             ))
 

@@ -5,18 +5,13 @@ const ApiContext = createContext();
 const ApiProvider = ({ children }) => {
   const [db, setDb] = useState([]);
 
-
-
-  const LoadinData = (param)=>{
-    setDb([...db,param])
-    if (db.length > 0){
-        for (const iterator of db) {
-          console.log(iterator)
-        }
-    }
+  const LoadinData = (param) => {
     
-}
-  const data = { db, LoadinData}
+    if (db.indexOf ( param ) === - 1) {
+      setDb([...db, param]);
+    }
+  };
+  const data = { db, LoadinData };
 
   return <ApiContext.Provider value={data}>{children}</ApiContext.Provider>;
 };
